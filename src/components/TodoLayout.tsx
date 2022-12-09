@@ -1,6 +1,5 @@
 import { Box, Paper, Typography } from "@mui/material";
-import { FC, useContext } from "react";
-import { TodoContext, TodoContextType } from "../context/todoContext";
+import { FC } from "react";
 import TabComponent from "./TabComponent";
 import TodoForm from "./TodoForm";
 
@@ -14,7 +13,7 @@ const TodoLayout: FC = () => {
           "& > :not(style)": {
             mt: 5,
             width: 800,
-            minHeight: 400,
+            minHeight: "90vh",
           },
         }}
       >

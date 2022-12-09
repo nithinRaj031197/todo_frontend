@@ -13,5 +13,5 @@ export enum Strings {
     COMPLETED_TODOS = "COMPLETED_TODOS",
     ACTIVE_TODOS = "ACTIVE_TODOS",
 
-    REACT_APP_API_URL = "http://localhost:5000/api"
+    REACT_APP_API_URL = "https://todo-backend-dd5d.onrender.com"
 }
