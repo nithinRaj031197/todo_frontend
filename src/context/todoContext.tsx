@@ -96,6 +96,7 @@ export const TodoProvider: FC<Props> = ({ children }) => {
       })
       .catch((err) => {
         console.error(err);
+        toast.error(err);
       })
       .finally(() => {
         setLoading(false);
@@ -116,6 +117,7 @@ export const TodoProvider: FC<Props> = ({ children }) => {
       })
       .catch((err) => {
         console.error(err);
+        toast.error(err);
       })
       .finally(() => {
         setLoading(false);
@@ -132,6 +134,7 @@ export const TodoProvider: FC<Props> = ({ children }) => {
       })
       .catch((err) => {
         console.error(err);
+        toast.error(err);
       })
       .finally(() => {
         setLoading(false);
